@@ -1,0 +1,26 @@
+{
+  "name": "nem-api",
+  "version": "1.0.0",
+  "description": "Nem API using NodeJS Express and MongoDB ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mszayani91/nem-api.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "api",
+    "mongodb",
+    "opensource"
+  ],
+  "author": "Mehdi Salim ZAYANI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mszayani91/nem-api/issues"
+  },
+  "homepage": "https://github.com/mszayani91/nem-api#readme"
+}
