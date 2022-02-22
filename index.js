@@ -25,5 +25,5 @@ mongoose
 
 
 app.listen(PORT, async () => {
-  console.log(`Nem API is running with the server up on port: ${PORT}`);
+  console.log(`Nem API is running 🏃 with the server up on port: ${PORT}`);
 });

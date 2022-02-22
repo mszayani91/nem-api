@@ -10,6 +10,10 @@ const mongoose = require("mongoose");
            type: String,
            required: true,
        },
+       spicy: {
+        type: Boolean,
+        default: false,
+      },
        addedAt: {
            type: Date,
            default: Date.now,
