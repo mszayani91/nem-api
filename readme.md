@@ -12,14 +12,15 @@
 
 ## Installation
 
-``` git clone https://github.com/mszayani91/nem-api.git
-```
-```cd /nem-api
-```
-``` npm install
-``` 
-- créer un fichier .env à la raçine du projet 
-- ajouter la constante MONGODB_URI = "vos informations de connection au cluster mongodb"
+- git clone https://github.com/mszayani91/nem-api.git
+
+- cd /nem-api
+
+- npm install 
+
+- Créer un fichier .env à la raçine du projet 
+
+- Ajouter la constante MONGODB_URI = "vos informations de connection au cluster mongodb"
 
 
 ## Démarrage
@@ -32,4 +33,4 @@ Faites un fork du projet dans vôtre machine local.Effectuer tous les changement
 
 ## License
 
-Ce projet est distribuée gratuitement sous License ISC
+Ce projet est distribuée gratuitement sous License ISC.
