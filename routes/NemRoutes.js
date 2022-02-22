@@ -1,4 +1,4 @@
-const { getNems } = require("../controller/NemController");
+const { getNems, addNem, updateNem, deleteNem } = require("../controller/NemController");
 
 const router = require("express").Router();
 
@@ -9,4 +9,8 @@ router.get("/", (req, res) => {
 //List of nems route
 router.get("/nems", getNems);
 
+//Adding new nem 
+router.post("/nem", addNem);
+router.put("/nems/:nemID", updateNem);
+router.delete("/nems/:nemID", deleteNem);
 module.exports = router;
