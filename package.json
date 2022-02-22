@@ -4,7 +4,9 @@
   "description": "Nem API using NodeJS Express and MongoDB ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,14 @@
   "bugs": {
     "url": "https://github.com/mszayani91/nem-api/issues"
   },
-  "homepage": "https://github.com/mszayani91/nem-api#readme"
+  "homepage": "https://github.com/mszayani91/nem-api#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
